@@ -14,7 +14,7 @@ futures-rustls = { workspace = true }
 libp2p-core = { workspace = true }
 libp2p-identity = { workspace = true }
 rcgen = { workspace = true }
-ring = { workspace = true }
+ring = "0.17.13"
 thiserror = { workspace = true }
 webpki = { version = "0.101.4", package = "rustls-webpki", features = ["std"] }
 x509-parser = "0.16.0"
